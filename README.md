@@ -24,4 +24,34 @@
 <br>
 <br>
 
-#**AIGNACION DE VLAN**
+# **AIGNACION DE VLAN Y PUERTOS**
+
+Switch>enable
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#vlan 10
+Switch(config-vlan)#name ADMIN
+Switch(config-vlan)#exit
+Switch(config)#vlan 20
+Switch(config-vlan)#name ALUMNOS
+Switch(config-vlan)#exit
+Switch(config)#vlan 30
+Switch(config-vlan)#name DIRECCION
+Switch(config-vlan)#exit
+Switch(config)#end
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#interface range fa0/1-3
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 10
+Switch(config-if-range)#end
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#interface range fa0/4-6
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 20
+Switch(config-if-range)#exit
+Switch(config)#interface fa0/7
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 30
+Switch(config-if)#end
