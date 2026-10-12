@@ -8,5 +8,9 @@
 
 
 # **TABLA DE SUBREDES**
-| DISPOSITIVO | IP | IP |
+| PC | VLAN | IP |
 | ----------- | ----------- | -----------|
+|Pc ADMIN | VLAN10 | 192.168.10.0/24 |
+|PC ALUMNOS | VLAN20 | 192.168.20.0/24 |
+|Pc DIRECCION | VLAN30 | 192.168.30.0/24 |
+|Pc GESTION | VLAN99 | 92.168.99.0/24 |
