@@ -24,7 +24,10 @@
 <br>
 <br>
 
-# **AIGNACION DE VLAN Y PUERTOS**
+# **AIGNACION DE VLAN Y PUERTOS (SW-CORE, SW-Lab1, SW-Lab2)**
+
+<br>
+<br>
 
 ````
 Switch>enable
@@ -58,3 +61,36 @@ Switch(config-if)#switchport access vlan 30
 Switch(config-if)#end
 
 ````
+
+
+# **CONFIGURACION DEL ROUTER (R1-CORE)**
+
+````
+interface gigabitEthernet 0/0/0
+ no ip address
+ no shutdown
+ exit
+interface gigabitEthernet 0/0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.254 255.255.255.0
+ exit
+interface gigabitEthernet 0/0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.20.254 255.255.255.0
+ exit
+interface gigabitEthernet 0/0/0.30
+ encapsulation dot1Q 30
+ ip address 192.168.30.254 255.255.255.0
+ exit
+interface gigabitEthernet 0/0/0.99
+ encapsulation dot1Q 99
+ ip address 192.168.99.254 255.255.255.0
+ exit
+interface gigabitEthernet 0/0/0.111
+ encapsulation dot1Q 111 native
+ no ip address
+ exit
+end
+
+````
+
