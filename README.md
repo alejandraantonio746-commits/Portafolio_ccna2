@@ -8,5 +8,5 @@
 
 
 # **TABLA DE SUBREDES**
-| Color | Código |
-| ----------- | ----------- |
+| DISPOSITIVO | IP | IP |
+| ----------- | ----------- | -----------|
