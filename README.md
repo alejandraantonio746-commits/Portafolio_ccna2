@@ -26,6 +26,7 @@
 
 # **AIGNACION DE VLAN Y PUERTOS**
 
+````
 Switch>enable
 Switch#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
@@ -55,3 +56,5 @@ Switch(config)#interface fa0/7
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 30
 Switch(config-if)#end
+
+````
