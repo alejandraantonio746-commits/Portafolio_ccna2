@@ -24,7 +24,7 @@
 <br>
 <br>
 
-# **AIGNACION DE VLAN Y PUERTOS (SW-CORE, SW-Lab1, SW-Lab2)**
+# **AIGNACION DE VLAN Y PUERTOS (SW-Lab1, SW-Lab2)**
 
 <br>
 <br>
