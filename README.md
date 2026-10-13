@@ -62,17 +62,6 @@ Switch(config-if)#end
 
 ````
 
-| ASIGNACION DE NOMBRE Y CONTRASEÑA AL ROUTER|
-| - |
-| <img width="537" height="305" alt="image" src="https://github.com/user-attachments/assets/c3e38645-832e-42ae-a03d-9eb869a767e2" /> |
-
-
-| SUBINTERFACES DEL ROUTER |
-| - |
-|<img width="628" height="509" alt="image" src="https://github.com/user-attachments/assets/73d7e7bc-1702-4785-994d-22aa59893b1f" />
-|
-|<img width="634" height="453" alt="image" src="https://github.com/user-attachments/assets/7d938f15-83bc-48c4-a278-2a3bf67cc4d5" />
-|
 <br>
 <br>
 
