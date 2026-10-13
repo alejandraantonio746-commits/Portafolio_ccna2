@@ -62,6 +62,19 @@ Switch(config-if)#end
 
 ````
 
+| ASIGNACION DE NOMBRE Y CONTRASEÑA AL ROUTER|
+| - |
+| <img width="537" height="305" alt="image" src="https://github.com/user-attachments/assets/c3e38645-832e-42ae-a03d-9eb869a767e2" /> |
+
+
+| SUBINTERFACES DEL ROUTER |
+| - |
+|<img width="628" height="509" alt="image" src="https://github.com/user-attachments/assets/73d7e7bc-1702-4785-994d-22aa59893b1f" />
+|
+|<img width="634" height="453" alt="image" src="https://github.com/user-attachments/assets/7d938f15-83bc-48c4-a278-2a3bf67cc4d5" />
+|
+<br>
+<br>
 
 # **CONFIGURACION DEL ROUTER (R1-CORE)**
 
@@ -97,6 +110,7 @@ R1-CORE(config)#end
 ````
 <br>
 <br>
+
 
 # **CONFIGURACION DE SW-CORE**
 
@@ -139,6 +153,21 @@ SW-CORE(config)#end
 SW-CORE#copy running-config startup-config
 
 ````
+
+| CREACION DE NOMBRE Y CONTRASEÑA SW-Lab1 |
+| - |
+| <img width="619" height="219" alt="image" src="https://github.com/user-attachments/assets/67610b12-5543-481b-8a2e-76806af79b73" />
+ |
+
+ <br>
+ <br>
+
+ |ASIGNACION DE ENLACES TRONCALES |
+ | - |
+ | <img width="619" height="458" alt="image" src="https://github.com/user-attachments/assets/551eb975-1b4a-4529-b5e4-8ff75506d404" /> |
+
+ <br>
+ <br>
 
 # **CONFIGURACION DEL SW-Lab1**
 
