@@ -210,3 +210,8 @@ SW-Lab1(config)#end
 SW-Lab1#copy running-config startup-config
 
 ````
+
+| ASIGNACION DE NOMBRE Y CONTRASEÑA SW-Lab2 |
+| - |
+| <img width="624" height="249" alt="image" src="https://github.com/user-attachments/assets/4f92fd32-8d5a-4f4c-888f-8ea34aa20651" />
+ |
