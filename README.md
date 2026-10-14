@@ -251,7 +251,70 @@ SW-Lab2(config)#
 SW-Lab2#
 %SYS-5-CONFIG_I: Configured from console by console
 
-
-
 ````
+<br>
+<br>
+
+| PC | IPv4 | GATEWAY |
+| - | - | - |
+| PC-ADMIN LAB1 | 192.168.10.1| 192.168.10.254|
+| PC-ADIM2 LAB1 |192.168.10.2| 192.168.10.254|
+| PC-ADIM3 LAB1 |192.168.10.3| 192.168.10.254|
+| PC-ALUMNOS LAB1 |192.168.20.1| 192.168.20.254|
+| PC-ALUMNOS2 LAB1 |192.168.20.2| 192.168.20.254|
+| PC-ALUMNOS3 LAB1 |192.168.20.3|192.168.20.254|
+| PC-DIRECCION LAB1 |192.168.30.1| 192.168.30.254|
+
+<br>
+<br>
+
+| PC | IPv4 | GATEWAY |
+| - | - | - |
+| PC-ADMIN LAB2 |192.168.10.4| 192.168.10.254|
+| PC-ADMIN2 LAB2 |192.168.10.5| 192.168.10.254|
+| PC-ADMIN2 LAB2 |192.168.10.6| 192.168.10.254|
+| PC-ALUMNOS LAB2 |192.168.20.4| 192.168.20.254|
+| PC-ALUMNOS2 LAB2 |192.168.20.5| 192.168.20.254|
+| PC-ALUMNOS3 LAB2 |192.168.20.6| 192.168.20.254|
+| PC-DIRECCION LAB2 |192.168.30.2| 192.168.30.254|
+
+<br>
+<br>
+
+| PC | IPv4 | GATEWAY |
+| - | - | - |
+| PC-GESTION | 192.168.99.4 | 192.168.99.254 |
+
+<br>
+<br>
+
+# **MANDAR MENSAJE Y CHECAR QUE ESTA BIEN **
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/44a53f75-2c43-4e97-8dc5-f411d36cca59" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
