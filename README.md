@@ -143,18 +143,6 @@ SW-CORE#copy running-config startup-config
 
 ````
 
-| CREACION DE NOMBRE Y CONTRASEÑA SW-Lab1 |
-| - |
-| <img width="619" height="219" alt="image" src="https://github.com/user-attachments/assets/67610b12-5543-481b-8a2e-76806af79b73" />
- |
-
- <br>
- <br>
-
- |ASIGNACION DE ENLACES TRONCALES |
- | - |
- | <img width="619" height="458" alt="image" src="https://github.com/user-attachments/assets/551eb975-1b4a-4529-b5e4-8ff75506d404" /> |
-
  <br>
  <br>
 
@@ -200,15 +188,6 @@ SW-Lab1#copy running-config startup-config
 
 ````
 
-| ASIGNACION DE NOMBRE Y CONTRASEÑA SW-Lab2 |
-| - |
-| <img width="624" height="249" alt="image" src="https://github.com/user-attachments/assets/4f92fd32-8d5a-4f4c-888f-8ea34aa20651" />
- |
-
-| CONFIGURACION MODO TRONCAL SW_Lab2|
-| - |
-|<img width="621" height="334" alt="image" src="https://github.com/user-attachments/assets/c2c37af7-ba81-4107-b8fd-28ade8a6a247" /> |
-
 # ** CONFIGURACION DE SW-LAB2 **
 
 ````
@@ -225,87 +204,25 @@ SW-Lab2(config-if-range)#switchport access vlan 10
 SW-Lab2(config-if-range)#spanning-tree portfast
 %Warning: portfast should only be enabled on ports connected to a single
 host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/1 but will only
-have effect when the interface is in a non-trunking mode.
-%Warning: portfast should only be enabled on ports connected to a single
-host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/2 but will only
-have effect when the interface is in a non-trunking mode.
-%Warning: portfast should only be enabled on ports connected to a single
-host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/3 but will only
-have effect when the interface is in a non-trunking mode.
-SW-Lab2(config-if-range)#
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
-
+interface  when portfast is enabled, can cause temporary bridging loops
 SW-Lab2(config-if-range)#no shutdown
 SW-Lab2(config-if-range)#
 SW-Lab2(config-if-range)#exit
 SW-Lab2(config)#
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
-
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
-
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
-
 SW-Lab2(config)#
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
 interface range fa0/4-6
 SW-Lab2(config-if-range)#switchport mode access
 SW-Lab2(config-if-range)#switchport access 
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastE
 SW-Lab2(config-if-range)#switchport access vlan 20
 SW-Lab2(config-if-range)#spanning-tree portfast
-%Warning: portfast should only be enabled on ports connected to a single
-host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/4 but will only
-have effect when the interface is in a non-trunking mode.
-%Warning: portfast should only be enabled on ports connected to a single
-host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/5 but will only
-have effect when the interface is in a non-trunking mode.
-%Warning: portfast should only be enabled on ports connected to a single
-host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/6 but will only
-have effect when the interface is in a non-trunking mode.
 SW-Lab2(config-if-range)#no shutdown
 SW-Lab2(config-if-range)#exit
 SW-Lab2(config)#interface
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
-
 % Incomplete command.
 SW-Lab2(config)#interface fa0/7
 SW-Lab2(config-if)#switchport mode access
 SW-Lab2(config-if)#switchport access vlan 30
 SW-Lab2(config-if)#spanning-tree portfast
-%Warning: portfast should only be enabled on ports connected to a single
-host. Connecting hubs, concentrators, switches, bridges, etc... to this
-interface  when portfast is enabled, can cause temporary bridging loops.
-Use with CAUTION
-
-%Portfast has been configured on FastEthernet0/7 but will only
-have effect when the interface is in a non-trunking mode.
-SW-Lab2(config-if)#
-%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/24 (1), with SW-CORE FastEthernet0/3 (111).
-
 SW-Lab2(config-if)#no shutdown
 SW-Lab2(config-if)#exit
 SW-Lab2(config)#
